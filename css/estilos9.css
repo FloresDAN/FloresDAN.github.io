@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../img/fondo3.jpg);
+	font-family: arial;
+	background-size:cover ;
+}
+.title_body h1{
+	text-align: center;
+	font-size: 50px;
+	margin: 15px 0px 10px;
+	color: #533005 ;
+	text-shadow: 0px, 0px, 10px #fff;
+}
+
+.title_body h4{
+	text-align: center;
+	font-size: 30px;
+	color: #E88A7B;
+	text-shadow: 0px, 0px, 10px #fff;
+}
+.contenedor{
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.tabla{
+width: 30%;
+	height: 550px;
+	margin: auto;
+	border: 3px solid #E88A7B ;
+	border-radius: 4px;
+	box-shadow: 0px, 0px, 4px, 0px #533005;
+	padding: 60px;
+	text-align: center;
+	flex-grow: 1;
+	color:#533005 ;
+}
+.tabla>h2{
+	font-size: 30px;
+	margin-bottom: 35px;
+}
+
+.tabla img{
+	width:120px ;
+	height: 100px;
+	margin-bottom: 35px;
+
+}
+.tabla > h3{
+	font-size: 30px;
+	border-bottom: 20px;
+}
+
+.tabla < p{
+	display: block;
+	border-bottom: 20px;
+}
+.boton {
+	display: inline-block;
+	width: 150px;
+	padding: 12px;
+	background: #A1270E;
+	text-decoration: none;
+	color: white;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+	margin: auto;
+}
+.boton:hover{
+	background: rgb(222, 169, 159);
+	color: white;
+	cursor: pointer;
+	transition: all 150ms;
+}
+.tabla:hover{
+	background: #BCAAA6;
+	color: #FFFFFF;
+	transition: 0.5 all;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+@media screen and(max-width: 1000px){
+	.tabla{
+		width: 45%;
+		max-width: none;
+		margin-bottom: 40px;
+		flex-grow: initial;
+	}
+
+}
+@media screen and(max-width: 700px){
+	.tabla{
+		width: 45%;
+		padding: 30px;
+	}
+	.tabla>h2{
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 550) {
+}
+
+estilos actualizados

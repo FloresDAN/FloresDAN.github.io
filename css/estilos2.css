@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image:url(../img/fondo2.jpg);
+	font-family: lemon Friday;
+	font-family: ´roboto´,sans-serif;
+font-size: 1.5rem;
+line-height: 1.5em;
+margin: 0;
+}
+
+.container{
+	width: 85%;
+	max-width:850px;
+	margin: 0 auto;
+	/*background: yellow; desactiva el color de fondo*/
+}
+.header{
+	background: #DFC286;
+	color:  white;
+	padding: 1reg 0;
+}
+.header a{ /*a= vinculo*/
+	color: brown;
+	text-decoration: none;
+}
+	
+	.logo-nav-container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+}
+.logo{
+	letter-spacing: 5px;
+	font-size: 1.6em;
+}
+.navigation ul{
+	width: 0px;
+	margin: 0;
+	padding: 0;
+	list-style: none; /*Quito las viñetas*/ 
+}
+.navigation ul li{
+	display: inline-block;/*coloco los elementos uno tras otro*/
+	l
+}
+.navigation ul li a{
+	display: block;
+	padding: 0.5rem 0.7em; /*separamos los li*/
+	border-radius: 5px;
+	transition: all 0.6s linear;
+	text-decoration: none;
+	font-size: 21px;
+}
+
+.navigation ul li a:hover{
+	background: #7C3F1F;
+	color: white;
+}
